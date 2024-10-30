@@ -12,7 +12,7 @@ export default {
     const now = new Date();
     const currentTime = now.toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" });
     const DISCORD_BOT_TOKEN = env.DISCORD_BOT_TOKEN;
-    const DISCORD_CHANNEL_ID = "1300951272043843604";
+    const DISCORD_CHANNEL_ID = env.DISCORD_CHANNEL_ID;
 
     const messageContent = {
       content: `⏰ 当前时间：${currentTime}`
